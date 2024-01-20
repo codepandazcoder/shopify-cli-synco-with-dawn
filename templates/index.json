@@ -67,10 +67,34 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "about_section_B6AcyU": {
+      "type": "about-section",
+      "blocks": {
+        "slide_fXW8cJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snowboard_purple_hydrogen.png"
+          }
+        },
+        "slide_KPNKcq": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "slide_fXW8cJ",
+        "slide_KPNKcq"
+      ],
+      "settings": {
+        "title": "Slideshow"
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "about_section_B6AcyU"
   ]
 }
