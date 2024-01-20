@@ -6,20 +6,48 @@
 
 {% schema %}
 {
-"name": "About Me",
-"class": "about-me-section",
-"limit": 1,
-"settings": [
-{
-    "type": "text",
-    "id": "title",
-    "label": "Slideshow"
-}
-],
-"preset" : [
+  "name": "About Me",
+  "tag": "section",
+  "class": "slideshow",
+  "limit": 1,
+  "settings": [
     {
-    "name": "Slideshow"
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
     }
-]
+  ],
+  "max_blocks": 5,
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "About Me",
+      "settings": {
+        "title": "About Me"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+  
+  
 }
 {% endschema %}
